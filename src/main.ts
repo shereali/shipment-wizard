@@ -4,9 +4,8 @@ import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
 
+Vue.config.productionTip = true;
 
-
-Vue.config.productionTip = false;
 
 new Vue({
   router,
